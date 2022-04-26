@@ -17,7 +17,7 @@ const Todo = mongoose.model("Todo", {
     required: true,
     trim: true,
   },
-  Venue: {
+  venue: {
     type: String,
     required: true,
     trim: true,
